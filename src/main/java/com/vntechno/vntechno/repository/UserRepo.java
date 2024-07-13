@@ -6,4 +6,6 @@ import com.vntechno.vntechno.models.User;
 
 public interface UserRepo extends MongoRepository<User, String> {
     boolean existsByEmail(String email);
+    User findByEmail(String email);
 }
+
