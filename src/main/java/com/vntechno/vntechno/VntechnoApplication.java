@@ -17,6 +17,7 @@ public class VntechnoApplication {
 	private MongoTemplate mongoTemplate;
 
 	public static void main(String[] args) {
+		System.out.println("hello world !");
 		SpringApplication.run(VntechnoApplication.class, args);
 	}
 
