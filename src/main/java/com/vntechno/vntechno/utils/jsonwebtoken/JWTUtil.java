@@ -12,7 +12,6 @@ import java.util.function.Function;
 
 @Component
 public class JWTUtil {
-
     // Khóa bí mật để ký và xác thực JWT. Bạn nên sử dụng một khóa bí mật mạnh hơn và lưu trữ nó một cách an toàn.
     private String SECRET_KEY = "VNTECHNO_JWT_SECRET_KEY";
 

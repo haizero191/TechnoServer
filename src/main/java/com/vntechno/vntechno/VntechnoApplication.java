@@ -17,7 +17,6 @@ public class VntechnoApplication {
 	private MongoTemplate mongoTemplate;
 
 	public static void main(String[] args) {
-		System.out.println("hello viet nam !");
 		SpringApplication.run(VntechnoApplication.class, args);
 	}
 
